@@ -1,1 +1,116 @@
-
+:root{
+        background-color: #111111;
+        font-size: 12px !important;
+    }
+            
+    body{
+        background-color: #111111;
+        height: 100vh;
+        overflow-x: hidden !important;
+    }
+    
+    body::-webkit-scrollbar{
+        display:none;
+        -webkit-user-select: none;
+        -moz-user-select:    none;
+        -ms-user-select:     none;
+        user-select:         none;
+    }
+            
+    .photo-of-erica{
+        width: 24vw;
+    }
+    
+    p{
+        font-size: 1.16rem;
+    }
+         
+    .erica-email{
+        background-color: #ffffff !important;
+        color: #111111 !important;
+        width: 15vw;
+        border-radius: 0.4rem;
+    }
+    
+    .social-media-icon{
+        margin: 2rem 0 0 0;
+        height: 5rem;
+        width:  5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .franklin{
+        color: #2ECC71;
+    }
+    
+    .portfolio-img{
+        height: 15rem;
+        width:  15rem;
+        border-radius: 1rem;
+    }
+    
+    footer{
+        color: white;
+        padding: 50px 0 !important;
+    }
+    
+    @media only screen and (max-device-width: 768px){
+        .container-fluid{
+            padding-bottom: 10vh;
+        }
+        .photo-of-erica{
+            width: 80vw;
+        }
+        
+        .erica-name{
+            font-size: 6rem !important;
+            font-weight: 700;
+        }
+        
+        .erica-email{
+            width: 46vw;
+            height: 4vh;
+        }
+        .erica-email > a {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .major{
+            font-size: 3rem;
+        }
+        .social-media-icon{
+            margin: 1rem 0 0 0;
+            height: 10rem;
+            width:  10rem;
+        }
+        #right{
+            padding: 0 3rem;
+        }
+        .about-me{
+            padding-top: 9rem !important;
+            margin-left: 4rem;
+        }
+        .about-erica{
+            font-size: 2.5rem;
+            padding: 0 4rem;
+        }
+        .apps-header{
+            margin:  4rem 0 0 4rem;
+            padding: 0 0 3rem 0;
+        }
+        .portfolio-item{
+            margin-left: 4rem;
+        }
+        .portfolio-img{
+            height: 24rem;
+            width:  24rem;
+        }
+    	.website-link,.app-link{
+    	    font-size: 2.5rem;
+    	}
+    	footer{
+    	    height: 8vh;
+    	    width:  100%;
+    	    color: white;
+    	}
+    }

@@ -1,0 +1,127 @@
+:root{
+    font-size: 12px !important;
+}
+.background-white{background-color: #FFFFFF;}
+.background-gray{background-color: #5f5f5f;}
+.background-smoke{background-color: #e4e4e4;}
+.background-red{background-color:#C70039;}
+.background-orange{background-color:#FF5733;}
+.background-yellow{background-color:#FFC300;}
+.background-blue{background-color:#3498DB;}
+.background-dark-blue{background-color:#10171d;}
+.background-purple{background-color:#581845;}
+.background-black{background-color:#111111;}
+.background-pink{background-color:rgba(252, 87, 134);}
+
+.button-light{border:none;font-weight: 700;padding:10px 20px;background-color:white;}
+
+.text-helvetica{font-family: Arial, Helvetica, sans-serif;}
+.text-roboto{font-family: "Roboto";}
+.text-roboto-thin{font-family: "RobotoThin";}
+.text-roboto-family{font-family: "RobotoCondensed","RobotoThin","Roboto";}
+.text-times{font-family: 'Times New Roman', Times, serif;}
+.text-monospace{font-family: 'Courier New', Courier, monospace;}
+
+.text-color-white{color: #ECF0F1 !important;}
+.text-color-smoke{color: whitesmoke !important;}
+.text-color-red{color:#C70039 !important;}
+.text-color-orange{color:#fd7e14 !important;}
+.text-color-yellow{color:#FFC300 !important;}
+.text-color-sky-blue{color:#3498DB !important;}
+.text-color-dark-blue{color:#273746 !important;}
+.text-color-purple{color:#6f42c1 !important;}
+.text-color-black{color: black !important;}
+.text-color-pink{color:#d63384 !important;}
+
+.text-size-sm{font-size: 12px !important;}
+.text-size-md{font-size: 3em !important;}
+.text-size-lg{font-size: 5em !important;}
+.text-size-xl{font-size: 8em !important;}
+
+.text-weight-sm{font-weight: 100 !important;}
+.text-weight-md{font-weight: 300 !important;}
+.text-weight-lg{font-weight: 600 !important;}
+.text-weight-xl{font-weight: 900 !important;}
+
+.padding-sm{padding: 1rem !important;}
+.padding-md{padding: 2rem !important;}
+.padding-lg{padding: 4rem !important;}
+.padding-xl{padding: 8rem !important;}
+
+.pt-sm{padding-top: 1rem !important;}
+.pt-md{padding-top: 2rem !important;}
+.pt-lg{padding-top: 4rem !important;}
+.pt-xl{padding-top: 8rem !important;}
+
+.pr-sm{padding-right: 1rem !important;}
+.pr-md{padding-right: 2rem !important;}
+.pr-lg{padding-right: 4rem !important;}
+.pr-xl{padding-right: 8rem !important;}
+
+.pb-sm{padding-top: 1rem !important;}
+.pb-md{padding-top: 2rem !important;}
+.pb-lg{padding-top: 4rem !important;}
+.pb-xl{padding-top: 8rem !important;}
+
+.pl-sm{padding-left: 1rem !important;}
+.pl-md{padding-left: 2rem !important;}
+.pl-lg{padding-left: 4rem !important;}
+.pl-xl{padding-left: 8rem !important;}
+
+.height-xxs{height: 8vh !important;}
+.height-xs{height: 10vh !important;}
+.height-sm{height: 25vh !important;}
+.height-md{height: 50vh !important;}
+.height-lg{height: 75vh !important;}
+.height-xl{height: 100vh !important;}
+
+.width-xs{width: 10vw !important;}
+.width-sm{width: 25vw !important;}
+.width-md{width: 50vw !important;}
+.width-lg{width: 75vw !important;}
+.width-xl{width: 100vw !important;}
+
+.inline{display:inline !important;}
+.block{display: block !important;}
+.inlineblock{display:inline-block !important;}
+
+.position-relative{position: relative !important;}
+
+.navbar-splash-light{display: block;height: 100vh;background-color: #ECF0F1;color: black !important;}
+
+.navbar-splash-dark{display: block;height: 100vh;background-color: black;color: white !important;}
+
+.navbar-dark-theme{display:block;height: 8vh;background-color: black;color: white !important;}
+
+.navbar-light-theme{display:block;height: 8vh;background-color: #ECF0F1;color: black !important;}
+
+.left-navbar-wrap{text-align: left;float: left;width: 50vw !important;}
+
+.right-navbar-wrap{text-align: right;float: right;width: 49vw !important;}
+
+.navbar-list{display: inline;list-style-type: none !important;}
+
+.navbar-list > li{display: inline;padding-right: 8px !important;}
+
+.navbar-list > li:hover{cursor: pointer !important;}
+
+@font-face {
+    font-family: abril;
+    src: url("../fonts/abril.ttf");
+}
+@font-face {
+    font-family: libre;
+    src: url("../fonts/libre.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: robotoCondensed;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
